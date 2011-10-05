@@ -25,3 +25,4 @@ module ActionView #:nodoc:
     end
   end
 end
+ActionView::Base.send :include, ActionView::Helpers::NestedLayoutsHelper
